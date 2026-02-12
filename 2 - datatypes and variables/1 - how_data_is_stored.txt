@@ -1,0 +1,35 @@
+-------------- How Data is Stored --------------
+
+integer
+byte = 4, bit = 32
+int a = 8;
+how this 8 is stored in 32 bits
+first we convert 8 to binear which is = 1000
+and start store it from last 
+0000 0000 0000 1000
+remainig will be 0
+
+
+ 
+-------------- How Data is Stored with Type Conversion --------------
+
+char a = 13;
+int b = a;
+
+how this type conversion happens
+first the value 13 is stored in char (1 byte = 8 bits)
+
+13 in binary = 1101
+
+char (8-bit)
+00001101
+
+now this char value is converted to int
+the same binary value is copied into 32 bits
+and the remaining left bits are filled with 0
+
+int (32-bit)
+00000000 00000000 00000000 00001101
+
+so the value 13 remains the same,
+only the data type changes from char to int

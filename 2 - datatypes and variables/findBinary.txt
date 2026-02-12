@@ -1,0 +1,49 @@
+| Division | Result | Remainder |
+| -------- | ------ | --------- |
+| 13 ÷ 2   | 6      | **1**     |
+| 6 ÷ 2    | 3      | **0**     |
+| 3 ÷ 2    | 1      | **1**     |
+| 1 ÷ 2    | 0      | **1**     |
+Now read the remainders from bottom to top:
+1101
+
+
+
+| Division | Result | Remainder |
+| -------- | ------ | --------- |
+| 10 ÷ 2   | 5      | 0         |
+| 5 ÷ 2    | 2      | 1         |
+| 2 ÷ 2    | 1      | 0         |
+| 1 ÷ 2    | 0      | 1         |
+Now read the remainders from bottom to top:
+1010
+
+
+---------------- JavaScript ----------------
+(1)
+let num = 13;
+let binary = num.toString(2);
+console.log(binary);   // 1101
+(2)
+function toBinary(n) {
+    let result = "";
+
+    while (n > 0) {
+        result = (n % 2) + result;   // add remainder in front
+        n = Math.floor(n / 2);
+    }
+
+    return result;
+}
+console.log(toBinary(13));   // 1101
+console.log(toBinary(10));   // 1010
+
+
+---------------- C++ ----------------
+int n = 13;
+string bin = "";
+while(n > 0){
+    bin = to_string(n % 2) + bin;
+    n = n / 2;
+}
+cout << bin;   // 1101
