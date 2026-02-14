@@ -1,6 +1,6 @@
-// 1 2 3
-// 2 3 4
-// 3 4 5
+// A
+// B B
+// C C C
 
 #include <iostream>
 using namespace std;
@@ -13,19 +13,15 @@ int main(){
     int i = 1;
 
     while(i<=n){
-        
+
         int j = 1;
-        int value = i; 
-        while(j<=n){
-            cout << value << " ";
+        while(j<=i){
+            char ch = 'A' + i - 1;
+            cout << ch << " ";
             j = j + 1;
-            value = value + 1;
         }
         cout << endl;
         i = i + 1;
-
     }
 
-
 }
-
