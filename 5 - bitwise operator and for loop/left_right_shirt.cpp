@@ -11,3 +11,8 @@ int main(){
 
 }
 
+
+// 20 = 10100 (binary)
+
+// 20 >> 1 → 01010 = 10     means n devided by 2
+// 20 >> 2 → 00101 = 5      means n devided by 4
