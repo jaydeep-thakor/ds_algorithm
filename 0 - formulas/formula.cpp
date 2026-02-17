@@ -22,4 +22,9 @@
 // n%10
 // n/10
 
+// to get the bit
+// run this loop
+// bit = n & 1
+// n = n >> 1
+
 
