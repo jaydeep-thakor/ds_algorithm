@@ -10,6 +10,7 @@ int main(){
 
     switch(number){
 
+        // case 1: { cout << "number one" << endl;\ }
         case 1: cout << "number one" << endl;
         break;
 
