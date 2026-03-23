@@ -1,0 +1,45 @@
+1 - Swap Alternate
+
+2. Coding Ninjas - Find Unique (-)
+
+3. LeetCode
+
+Que Num: 1207
+
+Title: Unique Number of Occurrences
+
+4. Coding Ninjas
+
+Que Num: Search "Duplicate in Array"
+
+Title: Duplicate In Array
+
+5. LeetCode (Homework)
+
+Que Num: 442
+
+Title: Find All Duplicates in an Array
+
+6. Coding Ninjas
+
+Que Num: Search "Intersection of Two Sorted Arrays"
+
+Title: Intersection Of Two Sorted Arrays
+
+7. Coding Ninjas
+
+Que Num: Search "Pair Sum"
+
+Title: Pair Sum
+
+8. Coding Ninjas
+
+Que Num: Search "Triplets with Given Sum"
+
+Title: Triplet Sum
+
+9. Coding Ninjas (Homework)
+
+Que Num: Search "Sort 0 1 2"
+
+Title: Sort 0 1 2

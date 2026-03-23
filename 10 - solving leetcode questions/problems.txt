@@ -1,0 +1,10 @@
+1 - Swap Alternate
+2 - Coding Ninjas - Find Unique (-)
+HW - 1207
+3 - Coding Ninjas - Duplicate in array
+HW - 442
+4 - Coding Ninjas - Intersection of Two Sorted Arrays
+5 - Coding Ninjas - Pair Sum
+6 - 
+
+
